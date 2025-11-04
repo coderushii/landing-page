@@ -6,6 +6,21 @@ body {
     margin: 0;
 
 }
+.page {
+  animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100vw);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0git);
+    opacity: 1;
+  }
+}
+
 
 header {
     text-align: center;
